@@ -1,0 +1,394 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "poppins", sans-serif;
+    /* font-size: clamp(1rem, 2vw + 1rem, 3rem); */
+   
+}
+html::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    cursor: url("https://img.icons8.com/material/24/blue-pointer.png"), auto;
+    /* cursor: url("/imges/pointer.png"),auto; */
+}
+
+.font-montserrat {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.font-poppins {
+    font-family: "Poppins", sans-serif;
+}
+
+.first {
+    height: 716.83px;
+    border: 2px solid white;
+    background: url("/imges/background1.png") center center / cover;
+}
+
+.box {
+    border: 2px solid white;
+    width: 43.5%;
+    height: 60%;
+    position: absolute;
+    right: 5%;
+    margin-top: 12%;
+    background-color: #fff3e3;
+}
+
+
+
+
+
+.text-box h2 {
+
+    color: #b88e2f;
+}
+
+.text-box {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.text-box button {
+    height: 74px;
+    width: 222px;
+    font-family: 700;
+    font-size: 16px;
+    background-color: #b88e2f;
+    color: white;
+}
+/* card */
+
+.card {
+    transition: .4s all ease-in;
+    border: none;
+    border-radius: 0px;
+    width: 95%;
+    }
+
+.carousel-control-next-icon {
+    padding: 0 4px 0 0;
+}
+
+.product-price p {
+    float: right;
+    color: #6b7270;
+    text-decoration: line-through;
+
+}
+
+
+
+.product-detail {
+    position: absolute;
+    height: 0;
+    overflow: hidden;
+    background-color: #3a3a3aad;
+    color: white;
+    transition: all 0.35s;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.product-detail a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.product-detail button a {
+    border-radius: 0;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #B88E2F;
+}
+
+
+
+
+.card:hover .product-detail {
+    height: calc(100%);
+    padding-top: 50%;
+    border-radius: 1%;
+}
+
+.show a {
+    width: 245px;
+    height: 48px;
+    border-color: #B88E2F;
+    color: #B88E2F;
+    border-radius: 0;
+}
+
+.show a:hover,
+.inspire-block1 button {
+    color: white;
+    background-color: #B88E2F;
+    border: 2px solid #B88E2F;
+    border-radius: 0;
+}
+
+/* inspiration */
+
+.inspire-block1 {
+    height: 15%;
+    width: 92%;
+    margin-top: 55%;
+    margin-bottom: 30%;
+    margin-left: 48px;
+}
+.inspire-block1 p{
+    color: #616161;
+}
+
+.inspire-block2 {
+    /* margin-top: 0; */
+    /* display: flex; */
+    width: 86%;
+    height: 85%;
+    background: url("/imges/i0.png") center center / cover;
+}
+
+.inpire-block2-text {
+    height: 130px;
+    width: 217px;
+    margin-left: 5%;
+    margin-top: 90%;
+    background-color: rgba(255, 255, 255, 0.745);
+}
+
+.inspire-block2 a {
+    margin-top: 113.1%;
+    height: 38px;
+    width: 48px;
+    border-radius: 0;
+    background-color: #B88E2F;
+}
+
+/* .slide {
+    width: 372px;
+    height: 486px;
+} */
+
+.discount{
+    /* position: absolute; */
+    height: 48px;
+    width: 48px;
+    background-color: #2ec1ac;
+}
+
+.d-block {
+    height: 440px;
+    width: 372px;
+}
+
+.indicators-btn {
+    background-color: #B88E2F;
+}
+
+.column1 {
+    /* width: 100px; */
+    margin-left: 0;
+}
+
+/* .setup-head {
+    font-size: 40px;
+} */
+/* carousel */
+.carousel-indicators {
+    margin: 0;
+    padding: 0;
+}
+  .carousel-indicators .active {
+    background-color: orange; /* Active color */
+    /* border-color: orange; */
+  }
+  
+  /* Change background color on hover */
+  .carousel-indicators button:hover {
+    background-color: orange; /* Hover color */
+  }
+
+  .carousel-indicators button[data-bs-target]{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    
+    transition: background-color 0.3s ease; /* Smooth transition for color change */
+
+  }
+  footer{
+    background-color: white;
+  }
+  .form-outline{
+    display: flex;
+  }
+
+
+  .nav-item .nav-link:hover{
+    background-color: #B88E2F;
+    border-radius: 20px;
+  }
+
+  .offcanvas-header .btn-close{
+    background: url("/imges/lock-closepng.png");
+    background-size: cover;
+    height: 10px;
+    width: 6px;
+    opacity: 1;
+  }
+  .payment{
+    color: #B88E2F;
+  }
+  .cart-btn button:hover{
+    background-color: #B88E2F;
+  }
+
+
+
+  
+
+
+  /* /media queri */
+ 
+  @media (max-width:1400px)
+  {
+    .design-img {
+        /* overflow: hidden; */
+        display: list-item;
+    }
+    .design-img img{
+        height: auto;
+        width: auto;
+    }
+    .col-center{
+        margin: 0;
+        padding: 0;
+        display:none;
+    }
+    .col3{
+        width: 100%;
+        margin-left: 20%;
+    }
+  }
+
+  @media(max-width: 880px){ 
+    .box{
+        width: auto;
+        text-align: center;
+        justify-content: center;
+    }
+    .box-txt{
+        margin-left: 0px;
+    }
+    .text-box{
+            margin-left: 10px;
+            width: 100%;
+    }
+    .design-img{
+        display: inline-flexbox;
+    }
+   
+    
+    
+   }
+   @media (max-width:1095px){
+    footer .form-outline{
+        display: grid;
+        width: 20%;
+        border: 2;
+        border-left: black;
+    }
+   }
+   @media (max-width: 990px)
+   {
+    .product-detail {
+        position: absolute;
+        height: 0;
+        width: 100%;
+        overflow: hidden;
+        background-color: #3a3a3aad;
+        color: white;
+        transition: all 0.35s;
+        text-align: center;
+        box-sizing: border-box;
+    }
+    
+    .product-detail a {
+        text-decoration: none;
+        cursor: pointer;
+        font-size: small;
+        width: 26%;
+
+    }
+    .product-detail div{
+        width: 100%;
+    }
+    
+    .product-detail button {
+        border-radius: 0;
+        font-size: 1rem;
+        font-weight: 300;
+        color: #B88E2F;
+    }
+    .col3{
+        display:none;
+    }
+     .col1 .row{
+        width: auto;
+       text-align: center;
+       margin-left: 10px;
+    }
+    
+    .col1 .row .col:first-child ,.col1 .row .col:nth-child(2), .col1 .row .col:nth-child(3) {
+        display: none;
+    }
+    
+     
+   }
+
+   @media (max-width:765px){
+    .product-detail a{
+        font-size:large;
+      
+    }
+    .product-detail div{
+       justify-content: center;
+
+    }
+   }
+
+   @media (max-width:576px){
+    .display-img{
+        overflow: hidden;
+
+    }
+    .display-img img{
+        width: 100%;
+    }
+    .carousel{
+        width: 90%;
+        text-align: center;
+        justify-content: center;
+    }
+    .inspire-block2{
+        margin-left: 0;
+    }
+    .inspire-block1{
+        margin-left: 10%;
+
+    }
+    .inspire-block1 p, .inspire-block1 h1{
+        width:50%;
+    }
+   }
+
+
+
+
+
+
+
+

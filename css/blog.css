@@ -1,0 +1,23 @@
+.recent-list h5{
+    font-weight: 400;
+    font-size: 14px;
+    /* line-height: 21px; */
+    
+}
+.recent-list p{
+    font-weight: 400;
+    font-size: 12px;
+}
+.recent-list .recent-list-item{
+    /* vertical-align: middle;   */
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 50%;
+}
+
+@media (max-width:770px){
+    
+    .search-bar{
+        display: none;
+    }
+}

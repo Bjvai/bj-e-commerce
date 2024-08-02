@@ -1,0 +1,55 @@
+body{
+    font-family: "Poppins", sans-serif;
+}
+.company-temp{
+    height: 75px;
+}
+.list-group-item{
+    border: none;
+}
+
+.item-name{
+    color: #9f9f9f;
+}
+.total{
+    color: #B88E2F;
+}
+.hide{
+    color: #9f9f9f;
+}
+.place-order{
+    text-align: center;
+}
+.place-order button{
+    height: 64px;
+    width: 318px;
+    /* margin-bottom: 86px; */
+}
+.product-billin-card{
+    height: 789px;
+    width: 608px;
+    margin-top: 20px;
+    margin-left: 10%;
+} 
+.list-group-item{
+    background-color: white;
+}
+.first-billing-box{
+    margin-left:200px;
+}   
+
+.checkout-form{
+    margin: 48px;
+    padding: 48px;
+    
+}
+
+
+@media (max-width:576px){
+    .product-billin-card{
+        width: auto;
+    }
+    .place-order button{
+        width: auto;
+    }
+}

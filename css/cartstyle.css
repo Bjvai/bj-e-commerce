@@ -1,0 +1,55 @@
+thead{
+    background-color: #F9F1E7;
+    /* height: 200px; */
+}
+thead tr{
+    height: 55px;
+}
+
+tbody tr{
+    margin-top: 20px;
+    height: 150px;
+}
+.left{
+    width: 75%;
+}
+.right{
+    background-color: #F9F1E7;
+    float:right;
+    width: 23%;
+    width: 414px;
+    margin-left: 32; 
+
+}
+.cart-box{
+    display: flex;
+    height: 405px; 
+
+}
+.ps1{
+    color: #9F9F9F;
+}
+.ps2{
+    color: #B88E2F  ;
+}
+
+@media (max-width:1000px){
+    .cart-box{
+        display: list-item;
+        height: 700px;
+    }
+    .left   {
+        width: 100%;
+        overflow-x: auto;
+        width: 100%;
+    }
+    .right{
+        margin-left: 0;
+        float: left;
+        width: 100%;
+    }
+    table thead, table tbody{
+        overflow-x: auto;
+        width: 100%;
+    }
+}

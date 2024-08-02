@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comparison</title>
+    <link rel="icon" href="/imges/logo.png" type="logo.png">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/style2.css">
+    <link rel="stylesheet" href="/css/style4.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Luxurious+Roman&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand  font-montserrat fw-bold fs-2" href="index.html"><img src="/imges/logo.png" alt="logo"
+                    width="70px" height="auto">Furniro</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center ms-5 ps-5" id="navbarNav">
+                <ul class="navbar-nav  fw-medium fs-base ms-5">
+                    <li class="nav-item ms-5">
+                        <a class="nav-link  font-poppins " style="color: black;" aria-current="page"
+                            href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item ms-5">
+                        <a class="nav-link  font-poppins" style="color: black;" href="shop.html">Shop</a>
+                    </li>
+                    <li class="nav-item ms-5">
+                        <a class="nav-link  font-poppins" style="color: black;" href="blog.html">About</a>
+                    </li>
+                    <li class="nav-item ms-5">
+                        <a class="nav-link  font-poppins" style="color: black;" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="collapse navbar-collapse justify-content-end ">
+                <ul class="navbar-nav ">
+                    <li class="nav-item ms-3">
+                        <a class="nav-link" aria-current="page" href="#"><img src="/imges/Vector.png" alt="user"></a>
+                    </li>
+                    <li class="nav-item ms-3">
+                        <a class="nav-link" href="#"><img src="/imges/search.png" alt="search"></a>
+                    </li>
+                    <li class="nav-item ms-3">
+                        <a class="nav-link" href="#"><img src="/imges/heart.png" alt="whislist"></a>
+                    </li>
+                    <li class="nav-item ms-3" href="#">
+                        <a class="btn btn-primary nav-link cart" type="button" data-bs-toggle="offcanvas"
+                            data-bs-target="#demo"><img src="/imges/Vector (1).png" alt="card"></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="offcanvas offcanvas-end" id="demo">
+        <div class="offcanvas-header">
+            <h1 class="offcanvas-title fw-semibold fs-4">Shopping Card</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+        </div>
+        <hr class="w-75">
+
+        <!-- cart -->
+
+        <div class="offcanvas-body">
+            <ul class="list-unstyled h-75 border border-primary">
+                <li class="mt-1">
+                    <ul class="list-unstyled d-flex justify-content-between">
+                        <li><img src="/imges/sofa-main-mini.png" alt=""></li>
+                        <li>
+                            <h6 class="fw-medium mt-3 fs-6">Asgaard sofa</h6>
+                            <p><span class="ms-1">1</span><span class="ms-1">x</span><span
+                                    class="ms-1 payment">Rs.250,000.0</span></p>
+                        </li>
+                        <li class="mt-4"><button class=" btn btn-close"></button></li>
+                    </ul>
+
+                </li>
+
+                <li class="mt-3">
+                    <ul class="list-unstyled d-flex justify-content-between">
+                        <li><img src="/imges/sofa-main-mini.png" alt=""></li>
+                        <li>
+                            <h6 class="fw-medium mt-3 fs-6">Asgaard sofa</h6>
+                            <p><span class="ms-1">1</span><span class="ms-1">x</span><span
+                                    class="ms-1 payment">Rs.250,000.0</span></p>
+                        </li>
+                        <li class="mt-4"><button class=" btn btn-close"></button></li>
+                    </ul>
+
+                </li>
+            </ul>
+            <div class="">
+                <p class="w-100 border"><span class="me-5">Subtotal</span> <span
+                        class="payment ms-5">Rs.520,000.00</span></p>
+            </div>
+            <hr>
+            <div class="d-felx cart-btn justify-content-between">
+                <button class="btn border-dark  rounded-5 w-25 " type="button"><a href="cart.html" class="text-black text-decoration-none">Cart</a></button>
+                <button class="btn border-dark  rounded-5  ms-2" type="button"><a href="checkout.html" class="text-black text-decoration-none">Chackout</a></button>
+                <button class="btn border-dark  rounded-5  ms-2" type="button"><a href="comparison.html" class="text-black text-decoration-none">Comparison</a></button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid box-first w-100 border ">
+        <!-- <img src="/imges/shop1.png"class="w-100" alt="imges" height="25%">  -->
+
+        <span class="text-center shop-box-first ">
+
+            <div class="mt-5"><img src="/imges/logo.png " height="77px" class="shop-head-img" alt=""></div>
+            <h1 class="fw-medium shop-head-1">Product Comparison</h1>
+            <ul class="list-unstyled d-flex ms-1 justify-content-center">
+                <li><a href="index.html" class="text-decoration-none text-black fw-bold">Home</a></li>
+                <li><img src="/imges/arrow-to.png" alt="*" class="ms-2 me-2 image-fluid"></li>
+                <li><a href="comparison.html" class="text-decoration-none text-black fs-6">Comparison</a></li>
+            </ul>
+
+        </span>
+    </div>
+
+
+
+    <div class="main-data-box container-fluid">
+
+        <div class="data-row-top container mt-5">
+            <div class="row data-box-top">
+                <div class="col mt-5">
+                    <p class="fw-medium fs-3">Go to Product page for more Products</p>
+                    <a href="shop.html" class=" fw-medium fs-5 text-secondary">View More</a>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="/imges/page-4 sofa 1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title fw-medium fs-5">Asgaard Sofa</h5>
+                          <p class="card-text fw--medium">Rs. 250,000.00</p>
+                          <p class="card-text"> <div class="d-flex">
+                            <ul class="d-flex list-unstyled">
+                                <li class="mt-2 ">4.2</li>
+                                <li class="mt-1 ms-1"><img src="/imges/star.png" alt=""></li>
+                                <li class="mt-1 ms-1"><img src="/imges/star.png" alt=""></li>
+                                <li class="mt-1 ms-1"><img src="/imges/star.png" alt=""></li>
+                                <li class="mt-1 ms-1"><img src="/imges/star.png" alt=""></li>
+                                <li class="mt-1 ms-1"><img src="/imges/star-half.png" alt=""></li>
+                            </ul>
+                            <ul class="d-flex list-unstyled d-felx">
+                                <li class=" ms-2"><img src="/imges/shop-vector5.png" alt=""></li>
+                                <li class="mt-2 ms-2 fw-normal fs-6" style="color: #9F9F9F;">204 Review</li>
+                            </ul>
+                        </div></p>
+                        </div>
+                      </div>
+                </div>
+
+
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="/imges/page-4 sofa 2.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title fw-medium fs-5">Outdoor Sofa Set</h5>
+                          <p class="card-text fw-medium">Rs. 224,000.00</p>
+                          <p class="card-text"> <div class="d-flex">
+                            <ul class="d-flex list-unstyled">
+                                <li class="mt-2 ">4.2</li>
+                                <li class="mt-1 ms-1"><img src="/imges/star.png" alt=""></li>
+                                <li class="mt-1 ms-1"><img src="/imges/star.png" alt=""></li>
+                                <li class="mt-1 ms-1"><img src="/imges/star.png" alt=""></li>
+                                <li class="mt-1 ms-1"><img src="/imges/star.png" alt=""></li>
+                                <li class="mt-1 ms-1"><img src="/imges/star-half.png" alt=""></li>
+                            </ul>
+                            <ul class="d-flex list-unstyled d-felx">
+                                <li class=" ms-2"><img src="/imges/shop-vector5.png" alt=""></li>
+                                <li class="mt-2 ms-2 fw-normal fs-6" style="color: #9F9F9F;">145 Review</li>
+                            </ul>
+                        </div></p>
+                        </div>
+                      </div>
+                </div>
+
+
+                <div class="col mt-5">
+                    <p class="fw-semibold fs-4 ">Add A Product</p>
+                    <select name="product" class="product-selector fw-semibold" id="">
+                        <option value="1" >Choose a Product</option>
+                        <option value="2">Chair</option>
+                        <option value="3">Table</option>
+                        <option value="4">Indoor sofa</option>
+                        <option value="4">Indoor sofa</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+<!-- table data -->
+<div class="container table-responsive mb-5 mt-5">
+    <table class="  border-top  fw-normal fs-5 position-fixed">
+        <!-- row1 -->
+        <tr class="row ">
+            <th class="col fw-medium border-end fs-3">Genral</th>
+            <th class="col border-end"></th>
+            <th class="col border-end"></th>
+            <th class="col"></th>
+        </tr>
+        <tr class="row ">
+            <td class="col border-end">
+                <ul class="list-unstyled">
+                    <li>Sales Package</li>
+                    <li>Model Number</li>
+                    <li>Secondary Material</li>
+                    <li>Configuration</li>
+                    <li>Upholstery Material</li>
+                    <li>Upholstery Color</li>
+                </ul>
+            </td>
+            <td class="col border-end">
+                <ul class="list-unstyled">
+                    <li>1 sectional sofa</li>
+                    <li>TFCBLIGRBL6SRHS</li>
+                    <li>Solid Wood</li>
+                    <li>L-shaped</li>
+                    <li>Fabric + Cotton</li>
+                    <li>Bright Grey & Lion</li>
+                </ul>
+            </td>
+            <td  class="col border-end">
+                <ul class="list-unstyled">
+                    <li>1 Three Seater, 2 Single Seater</li>
+                    <li>DTUBLIGRBL568</li>
+                    <li>Solid Wood</li>
+                    <li>L-shaped</li>
+                    <li>Fabric + Cotton</li>
+                    <li>Bright Grey & Lion</li>
+                </ul>
+            </td>
+            <td  class="col"></td>
+        </tr>
+        <!-- row2 -->
+        <tr  class="row">
+            <td class="col border-end fw-medium fs-3">Prouduct</td>
+            <td class="col border-end"></td>
+            <td class="col border-end"></td>
+            <td class="col"></td>
+        </tr>
+        <!-- row3 -->
+        <tr class="row">
+            <td class="col border-end">
+                <ul class="list-unstyled">
+                    <li>Filling Material</li>
+                    <li>Finish Type</li>
+                    <li>Adjustable Headrest</li>
+                    <li>Maximum Load Capacity</li>
+                    <li>Origin of Manufacture</li>
+                </ul>
+            </td>
+            <td class="col border-end">
+                <ul class="list-unstyled">
+                    <li>Foam</li>
+                    <li>Bright Grey & Lion</li>
+                    <li>No</li>
+                    <li>280 KG</li>
+                    <li>India</li>
+                </ul>
+            </td>
+            <td class="col border-end">
+                <ul class="list-unstyled">
+                    <li>Matte</li>
+                    <li>Bright Grey & Lion</li>
+                    <li>yes</li>
+                    <li>300 KG</li>
+                    <li>India</li>
+                </ul>
+            </div>
+            <td class="col"></td>
+        </tr>
+        <!-- row4 -->
+        <tr class="row">
+            <td class="col border-end fw-medium fs-3">Dimensions</td>
+            <td class="col border-end"></td>
+            <td class="col border-end"></td>
+            <td class="col"></td>
+        </tr>
+        <!-- row5 -->
+        <tr class="row">
+            <td class="col border-end">
+                <ul class="list-unstyled">
+                    <li>Width</li>
+                    <li>Height</li>
+                    <li>Depth</li>
+                    <li>Weight</li>
+                    <li>Seat Height</li>
+                    <li>Leg Height</li>
+                </ul>
+            </td>
+            <td class="col border-end">
+                <ul class="list-unstyled">
+                    <li>265.32 cm</li>
+                    <li>76 cm</li>
+                    <li>167.76 cm</li>
+                    <li>45 KG</li>
+                    <li>41.52 cm</li>
+                    <li>5.46 cm</li>
+                </ul>
+            </td>
+            <td  class="col border-end">
+                <ul class="list-unstyled">
+                    <li>265.32 cm</li>
+                    <li>76 cm</li>
+                    <li>167.76 cm</li>
+                    <li>65 KG</li>
+                    <li>41.52 cm</li>
+                    <li>5.46 cm</li>
+                </ul>
+            </td>
+            <td  class="col"></td>
+        </tr>
+        
+        <tr class="row">
+            <td  class="col border-end fw-medium fs-3">Warranty</td>
+            <td  class="col border-end"></td>
+            <td  class="col border-end"></td>
+            <td  class="col"></td>
+        </tr>
+        
+        <tr class="row">
+            <td class="col border-end">Warranty Summary</td>
+            <td class="col border-end">1 Year Manufacturing Warranty</td>
+            <td class="col border-end">1.2 Year Manufacturing Warranty</td>
+            <td class="col"></td>
+        </tr>
+        
+        <tr class="row">
+            <td class="col border-end">Warranty Service Type</td>
+            <td class="col border-end">For Warranty Claims or Any Product Related Issues Please Email at operations@trevifurniture.com</td>
+            <td class="col border-end">For Warranty Claims or Any Product Related Issues Please Email at support@xyz.com</td>
+            <td class="col"></td>
+        </tr>
+        
+        <tr class="row">
+            <td class="col border-end">Covered in Warranty</td>
+            <td class="col border-end">Warranty Against Manufacturing Defect</td>
+            <td class="col border-end">Warranty of the product is limited to manufacturing defects only.</td>
+            <td class="col"></td>
+        </tr>
+        <tr class="row">
+            <td class="col border-end">Not Covered in Warranty</td>
+            <td class="col border-end">The Warranty Does Not Cover Damages Due To Usage Of The Product Beyond Its Intended Use And Wear & Tear In The Natural Course Of Product Usage.</td>
+            <td class="col border-end">The Warranty Does Not Cover Damages Due To Usage Of The Product Beyond Its Intended Use And Wear & Tear In The Natural Course Of Product Usage.</td>
+            <td class="col"></td>
+        </tr>
+        <tr class="row">
+            <td class="col border-end">Domestic Warranty</td>
+            <td class="col border-end">1 Year</td>
+            <td class="col border-end">3 Months</td>
+            <td class="col"></td>
+        </tr>
+        <tr class="row">
+            <td class="col border-end"></td>
+            <td class="col border-end text-center ">
+                <a href="product.html" class=" mt-5 btn cart-add bg-warning  text-white">Add To Cart</a>
+            </td>
+            <td class="col border-end text-center ">
+                <a href="product.html" class=" mt-5 btn cart-add bg-warning  text-white">Add To Cart</a>
+            </td>
+            <td class="col"></td>
+        </tr>
+
+
+    </table>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="container-fluid w-100 border services-box" style="background-color: #FAF3EA;">
+    <ul class="nav list-unstyled d-flex" style="margin-top: 5%; margin-bottom: 5%;" >
+      <li class="nav-list m-4"><img src="/imges/trofy.png"  width="auto" alt="*"></li>
+      <li class="nav-list m-4"><img src="/imges/warrenty.png" width="auto"  alt="*"></li>
+      <li class="nav-list m-4"><img src="/imges/shipping.png" width="auto"  alt="*"></li>
+      <li class="nav-list m-4"><img src="/imges/support.png" width="auto"  alt="*"></li>
+    </ul>
+
+  </div>
+
+
+  <!-- footer -->
+
+
+  <div class="container-fluid  mb-5  border-top border-2">
+    <!-- Footer -->
+    <footer class="text-center text-lg-start text-dark" style="background-color: white">
+      <!-- Section: Social media -->
+
+      <!-- Section: Social media -->
+
+      <!-- Section: Links  -->
+      <section class="">
+        <div class="container text-center text-md-start mt-5">
+          <!-- Grid row -->
+          <div class="row mt-3">
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              <!-- Content -->
+              <h6 class="text-uppercase fw-bold fs-4">Funiro.</h6>
+
+              <p class="text-secondary mt-5">
+                400 University Drive Suite 200 Coral
+                Gables,<br>
+                FL 33134 USA
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4 ">
+              <!-- Links -->
+              <h6 class=" text-secondary ">Links</h6>
+
+              <p class="mt-5">
+                <a href="index.html" class="text-dark text-decoration-none fw-medium fs-base ">Home</a>
+              </p>
+              <p class="mt-5">
+                <a href="shop.html" class="text-dark text-decoration-none fw-medium fs-base ">Shop</a>
+              </p>
+              <p class="mt-5">
+                <a href="blog.html" class="text-dark text-decoration-none fw-medium fs-base ">About</a>
+              </p>
+              <p class="mt-5">
+                <a href="contact.html" class="text-dark text-decoration-none fw-medium fs-base ">Contact</a>
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+              <!-- Links -->
+              <h6 class="text-secondary ">Help</h6>
+
+              <p class="mt-5">
+                <a href="#!" class="text-dark text-decoration-none fw-medium fs-base ">Payment Options</a>
+              </p>
+              <p class="mt-5">
+                <a href="#!" class="text-dark text-decoration-none fw-medium fs-base ">Returns</a>
+              </p>
+              <p class="mt-5">
+                <a href="#!" class="text-dark text-decoration-none fw-medium fs-base ">Privacy Policies</a>
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+              <!-- Links -->
+              <h6 class="text-secondary">Newletter</h6>
+
+
+              <div class="form-outline form-white mb-4 w-auto">
+                <input type="email" id="form5Example2" class="border-0 border-bottom border-3 border-dark"
+                  placeholder="Enter Your Email Address" />
+                <button type="submit" class="ms-2 text-dark fw-bold btn border-0 border-bottom border-3 border-dark rounded-0 btn-outline-warning">Subscribe</button>
+
+
+              </div>
+            </div>
+            <!-- Grid column -->
+          </div>
+          <!-- Grid row -->
+        </div>
+      </section>
+      <!-- Section: Links  -->
+          <hr class="ms-5 me-5">
+      <!-- Copyright -->
+      <div class="continer text-left ">
+        <p class="container mt-5">
+        2024 furino.
+        <a class="text-dark" href="#">All rights reserved</a>
+      </p>
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://kit.fontawesome.com/16112ce45a.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="/js/script.js"></script>
+
+</body>
+
+</html>

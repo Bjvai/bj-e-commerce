@@ -1,0 +1,86 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+
+}
+body{
+    cursor: url("https://img.icons8.com/material/24/blue-pointer.png"), auto;
+
+}
+.font-montserrat {
+    font-family: 'Montserrat', sans-serif;
+}
+.nav-link {
+    font-family: "Poppins", sans-serif;
+}
+.box-first{
+    background: url("/imges/shop1.png") center center /cover;
+    height: 316px;
+}
+
+.shop-head{
+    font-size: 48px;
+    margin-top: 8%;
+}
+
+.box-sec{
+    background-color: #f9f1e7;
+    height: 100px;
+}
+.box-sec-first{
+ width: 62%;
+}
+
+/* pagitation */
+
+.pagination .page-item .active{
+    background-color: #B88E2F;
+    border: none;
+
+}
+.pagination .page-link{
+ width: 60px;
+ height: 60px;
+ background-color:#F9F1E7;
+ color: black;
+ 
+ align-items: center;
+ display: flex;
+ justify-content: center;
+ 
+}
+
+.pagination .page-link:hover{
+    background-color: #B88E2F;
+    border: none;
+    color: white;
+}
+.pagination .page-link{
+    height: 60px;
+    background: none;
+}
+
+@media (max-width:1400px) {
+    .box-sec-first{
+            margin-left: 0;
+            /* justify-content: center !important; */
+            width: auto;
+    }
+    .sec-nav-head{
+        height: 20%;
+    }
+    
+}
+@media (max-width:576px){
+    .services-box ul li img{
+        width: 80%;
+    }
+    .page .pagination{ 
+        width: 5%;
+    }
+    .pagination .page-link , .pagination a{
+        width: auto;
+        margin: 1%;
+    }
+}
